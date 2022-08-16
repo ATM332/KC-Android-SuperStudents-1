@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDABAB"
+    android:backgroundTint="#FFDCE2"
+    android:orientation="vertical"
+    tools:context=".MainActivity2"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:backgroundTint="#80FFDCE2">
+
+        <TextView
+            android:id="@+id/cc"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"
+            android:text="Computers choice"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/pc"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"
+            android:text="Players choice"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/im_computer"
+            android:layout_width="196dp"
+            android:layout_height="186dp"
+            android:layout_marginLeft="-450dp"
+            android:layout_marginTop="250dp"
+            android:rotation="90"
+            android:src="@drawable/rock" />
+
+        <ImageView
+            android:id="@+id/im_player"
+            android:layout_width="173dp"
+            android:layout_height="185dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="250dp"
+            android:rotation="-90"
+            android:src="@drawable/paper" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-340dp"
+            android:layout_marginTop="100dp"
+            android:text="Score: Player 0 Computer 0"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="-390dp"
+            android:layout_marginTop="500dp">
+
+            <ImageButton
+                android:id="@+id/rockbttn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shape"
+                android:elevation="12dp"
+                android:padding="5dp"
+                android:src="@drawable/rocklogo21" />
+
+            <ImageButton
+                android:id="@+id/paperbttn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/shape"
+                android:elevation="12dp"
+                android:padding="5dp"
+                android:src="@drawable/paperlogo" />
+
+            <ImageButton
+                android:id="@+id/scissorsbttn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/shape"
+                android:elevation="12dp"
+                android:padding="5dp"
+                android:src="@drawable/scissorslogo" />
+
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/back1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="-100dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_action_name"
+            android:elevation="15dp"
+            android:padding="10dp"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
